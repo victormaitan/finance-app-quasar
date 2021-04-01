@@ -1,7 +1,7 @@
 {
-  "name": "estudo-quasar",
+  "name": "finance-app",
   "version": "0.0.1",
-  "description": "Sistema básico de controle financeiro",
+  "description": "A Finance App",
   "productName": "Finance App",
   "author": "Maitan <victormaitan01@gmail.com>",
   "private": true,
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "quasar": "^1.0.0"
   },

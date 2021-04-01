@@ -21,6 +21,7 @@ module.exports = function (/* ctx */) {
     // https://v1.quasar.dev/quasar-cli/boot-files
     boot: [
 
+      'axios'
     ],
 
     // https://v1.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
@@ -96,7 +97,7 @@ module.exports = function (/* ctx */) {
       // directives: [],
 
       // Quasar plugins
-      plugins: []
+      plugins: ['Notify']
     },
 
     // animations: 'all', // --- includes all animations
@@ -115,7 +116,7 @@ module.exports = function (/* ctx */) {
       manifest: {
         name: 'Finance App',
         short_name: 'Finance App',
-        description: 'Sistema básico de controle financeiro',
+        description: 'A Finance App',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
@@ -180,7 +181,7 @@ module.exports = function (/* ctx */) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'estudo-quasar'
+        appId: 'finance-app'
       },
 
       // More info: https://v1.quasar.dev/quasar-cli/developing-electron-apps/node-integration
